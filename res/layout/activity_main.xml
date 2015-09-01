@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+	
+
+    
+    <Chronometer android:id="@+id/chronometer"
+        android:format="@string/chronometer_initial_format"
+        android:background="@drawable/chronometer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dip"
+        android:typeface="monospace"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:paddingTop="30dip" />
+	
+	<LinearLayout
+    	android:orientation="horizontal" 
+    	android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:paddingTop="20dp">
+   		
+     	<Button
+        	android:id="@+id/start"
+        	
+        	android:background="@drawable/button_start"
+			android:shadowColor="#A8A8A8"
+			android:shadowDx="0"
+			android:shadowDy="0"
+			android:shadowRadius="5" 
+        	android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+       	 	android:text="@string/start" />
+
+   		<Button
+        	android:id="@+id/pause"
+        	android:background="@drawable/button_pause"
+			android:shadowColor="#A8A8A8"
+			android:shadowDx="0"
+			android:shadowDy="0"
+			android:shadowRadius="5" 
+        	android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="@string/pause" />
+    
+    	<Button 
+        	android:id="@+id/stop"
+        	android:background="@drawable/button_stop"
+        	android:layout_width="0dp"
+        	android:layout_height="wrap_content" 
+			android:layout_weight="1"
+        	android:text="@string/stop" />  
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:orientation="horizontal" 
+    	android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:paddingTop="20dp">
+
+
+    
+    	<Button 
+       	 	android:id="@+id/sendTime"
+       	 	android:background="@drawable/button_send_unclickable"
+       	 	android:padding="0dp"
+       	 	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:text="@string/sendTime" />     
+	</LinearLayout>
+</LinearLayout>
+

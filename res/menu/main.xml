@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.emailtime.MainActivity" >
+    <item 
+        android:id="@+id/action_add_client"
+        android:title="@string/action_add_client"
+        android:showAsAction="never" /> 
+    <item 
+        android:id="@+id/action_add_project"
+        android:title="@string/action_add_project"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_view_edit"
+        android:title="@string/action_view_edit"
+        android:showAsAction="never" />    
+    <item
+        android:id="@+id/action_email"
+        android:title="@string/action_email"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_reset_all"
+        android:title="@string/action_reset_all"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/about"
+        android:showAsAction="never" /> 
+    
+</menu>
